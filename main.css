@@ -52,6 +52,10 @@ img.yeet {
     transform: scale(1.25);
   }
 
+  .bad:hover {
+    filter: invert(100%); 
+  }
+
   
   @media screen and (max-width: 800px) {
     .column {
