@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Good, The Bad, & The Ugly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+  <h1> <img class="yeet" src= "images/ear.png" width="60px" alt="listen" > </h1>
+  <div class="row"> 
+          <div class="column">
+            <p onmouseover="PlaySound('badSound')"
+            onmouseout="StopSound('badSound')"> <img class="rotate" src="images/cup.jpg" > </p>
+            <p onmouseover="PlaySound('badSound')"
+            onmouseout="StopSound('badSound')"> <img src="images/metrocard.jpg" > </p>
+            <p onmouseover="PlaySound('goodSound')"
+            onmouseout="StopSound('goodSound')"> <img src="images/recycle.jpg"> </p>
+          </div>
+          <div class="column">
+            <p onmouseover="PlaySound('badSound')"
+            onmouseout="StopSound('badSound')"> <img src="images/glasses.jpg" > </p>
+            <p onmouseover="PlaySound('goodSound')"
+            onmouseout="StopSound('goodSound')"> <img src="images/waterbottle.jpg"  > </p>
+            <p onmouseover="PlaySound('goodSound')"
+            onmouseout="StopSound('goodSound')"> <img src="images/glossier.jpg" > </p>
+          </div> 
+          <div class="column">
+            <p onmouseover="PlaySound('badSound')"
+            onmouseout="StopSound('badSound')"> <img src="images/elevator.jpg"> </p>
+            <p onmouseover="PlaySound('goodSound')"
+            onmouseout="StopSound('goodSound')"> <img src="images/contacts.jpg" > </p>
+            <p onmouseover="PlaySound('badSound')"
+            onmouseout="StopSound('badSound')"> <img src="images/chair.jpg" > </p>
+          </div>
+          <div class="column">
+            <p onmouseover="PlaySound('goodSound')"
+            onmouseout="StopSound('goodSound')"> <img src="images/umbrella.jpg" > </p>
+            <p onmouseover="PlaySound('badSound')"
+            onmouseout="StopSound('badSound')"> <img src="images/mask.jpg" > </p>
+            <p onmouseover="PlaySound('goodSound')"
+            onmouseout="StopSound('goodSound')"> <img src="images/keyboard.jpg"> </p>
+          </div>
+        </div>
+
+          <audio id='badSound' src="audio/bad.mp3">
+          <audio id='goodSound' src="audio/good.mp3">
+
+
+
+</body>
+</html>
